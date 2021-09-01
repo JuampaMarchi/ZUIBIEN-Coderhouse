@@ -2,10 +2,12 @@
 *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    color: var(--main-font-color);
 }
 :root{
     --main-font-color: #4E4C4B;
     --main-background: #E0B593;
+    --main-verde: #527C73;
 }
 hr{
     border: 1px solid #000000;
@@ -30,7 +32,10 @@ hr{
 .navbar-nav{
     margin-right: 110px;
 }
-
+.navbar-logo{
+    margin-left: 80px;
+    height: 60px;
+}
 /* Main */
 .rectanguloPrincipal{
     position: absolute;
@@ -62,7 +67,6 @@ hr{
     background-color: var(--main-background);
 }
 .pMain{
-    color: var(--main-font-color);
     font-size: 85px;
     font-weight: 700;
     line-height: 100px;
@@ -133,15 +137,10 @@ hr{
     text-align: center;
     margin-top: 5px;
 }
-.hr1{
-    position: absolute;
-    width: 100%;
-    height: 0px;
-    left: 0px;
-    top: 1040px;
-}
+
+
+/* Propuesta de Valor */
 .propuesta{
-    color: var(--main-font-color);
     position: absolute;
     height: 77px;
     width: 500px;
@@ -168,14 +167,181 @@ hr{
     top: 1180px;
     border: 5px solid #E0B593;
     transform: rotate(180deg);
+    background-color: var(--main-background);
 }
 .pSomos{
     position: absolute;
     width: 350px;
     height: 40px;
-    left: 800px;
+    left: 900px;
     top: 1350px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 26px;
+}
+.imgPropuesta1{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 250px;
+    top: 1400px;
+}
+.imgPropuesta2{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 550px;
+    top: 1400px;
+}
+.textPropuesta{
+    position: absolute;
+    width: 646px;
+    left: 900px;
+    top: 1400px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    border: 5px solid #d2cfc7;
+    padding: 41px;
+}
+.linePropuesta2{
+    position: absolute;
+    width: 49px;
+    height: 0px;
+    left: 250px;
+    top: 1819.5px;
+    border: 5px solid #E0B593;
+    transform: rotate(-90deg);
+    background-color: var(--main-background);
+}
+.linePropuesta3{
+    position: absolute;
+    width: 1400px;
+    height: 0px;
+    left: 275px;
+    top: 1840px;
+    border: 5px solid #E0B593;
+    transform: rotate(180deg);
+    background-color: var(--main-background);
+}
+.linePropuesta4{
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 1550px;
+    top: 1720px;
+    border: 5px solid #E0B593;
+    transform: rotate(-90deg);
+    background-color: var(--main-background);
+}
+.linePropuesta5{
+    position: absolute;
+    width: 130px;
+    height: 0px;
+    left: 1545px;
+    top: 1600px;
+    border: 5px solid #E0B593;
+    transform: rotate(180deg);
+    background-color: var(--main-background);
+}
+.titleEficiencia{
+    position: absolute;
+    left: 360px;
+    top: 2000px;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
+    text-transform: uppercase;
+    color: var(--main-verde);
+}
+.textEficiencia{
+    position: absolute;
+    width: 390px;
+    left: 130px;
+    top: 2050px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    border: 5px solid #D2CFC7;
+    align-items: center;
+    padding: 25px;
+}
+.titleDiseño{
+    position: absolute;
+    left: 1030px;
+    top: 2000px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--main-verde);
+}
+.textDiseño{
+    position: absolute;
+    width: 450px;
+    left: 700px;
+    top: 2050px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    border: 5px solid #D2CFC7;
+    align-items: center;
+    padding: 25px;
+}
+.titleTecnologia{
+    position: absolute;
+    height: 39px;
+    left: 1600px;
+    top: 2000px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--main-verde);
+}
+.textTecnologia{
+    position: absolute;
+    width: 450px;
+    left: 1330px;
+    top: 2050px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    border: 5px solid #D2CFC7;
+    align-items: center;
+    padding: 25px;
+}
+.linePropuesta6{
+    position: absolute;
+    width: 49px;
+    height: 0px;
+    left: 160px;
+    top: 2233px;
+    border: 5px solid #E0B593;
+    transform: rotate(-90deg);
+    background-color: var(--main-background);
+}
+.linePropuesta7{
+    position: absolute;
+    width: 1550px;
+    height: 0px;
+    left: 180px;
+    top: 2253px;
+    border: 5px solid #E0B593;
+    transform: rotate(180deg);
+    background-color: var(--main-background);
+}
+.linePropuesta8{
+    position: absolute;
+    width: 49px;
+    height: 0px;
+    left: 1700px;
+    top: 2233px;
+    border: 5px solid #E0B593;
+    transform: rotate(-90deg);
+    background-color: var(--main-background);
 }

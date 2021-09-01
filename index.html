@@ -5,6 +5,7 @@
   <meta charset="UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="assets/img/logo.svg">
 
   <!--Google Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +19,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
 
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!--CSS-->
   <link rel="stylesheet" href="assets/css/style.css"/>
   
@@ -29,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-light ml-auto">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../assets/img/logo.svg" alt="logo" />
+                <img class="navbar-logo" src="../assets/img/logo.svg" alt="logo" data-aos="fade-right" data-aos-duration="2000"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <p class="pMain">Arquitectura, diseño y tecnología</p>
-                <img class="imgMain" src="assets/img/imgPrincipal.png" alt="imgPrincipal">
+                <img class="imgMain" src="assets/img/imgPrincipal.png" alt="imgPrincipal" data-aos="fade-left" data-aos-duration="2000">
                 <p class="pSubtitle">En ZUIBIEN nos dedicamos a diseñar y remodelar espacios según tus necesidades!</p>
                 <button class="btnAsesoria">QUIERO UNA ASESORÍA</button>
             </div>
@@ -90,23 +94,65 @@
             </div>
         </div> 
 
+        <!-- Propuesta de Valor -->
         <div class="container">
             <div class="row">
                 <p class="propuesta">Propuesta de Valor</p>
                 <span class="propuestaBg"></span>
                 <span class="linePropuesta"></span>
             </div>
+
             <div class="row">
-                <p class="pSomos">Somos ZUIBIEN</p>
+                <p class="pSomos">Somos ZUI<span style="color: var(--main-verde);">BIEN</span></p>
+                <div>
+                    <img class="imgPropuesta1" src="assets/img/propuesta-1.jpg" alt="propuesta-1" data-aos="zoom-in" data-aos-duration="1600">
+                    <img class="imgPropuesta2" src="assets/img/propuesta-2.jpg" alt="propuesta-2" data-aos="zoom-in" data-aos-duration="1600">
+                </div>
+                <div class="textPropuesta">
+                    <p>Somos una startup tecnológica que quiere revolucionar las remodelaciones de hogares democratizando la arquitectura al permitir que más personas tengan acceso a viviendas personalizadas y bien diseñadas a precios asequibles.</p>
+                    <br>
+                    <p>Apostamos por una <span style="color: var(--main-verde);">arquitectura de bienestar</span>, combinándola con las <span style="color: var(--main-verde);">nuevas tecnologías</span> y el <span style="color: var(--main-verde);">diseño</span>.</p>
+                    <br>
+                    <p>¿Qué estás esperando para tener tu hogar soñado?</p>
+                </div>
+                <div class="linePropuesta2"></div>
+                <div class="linePropuesta3"></div>
+                <div class="linePropuesta4"></div>
+                <div class="linePropuesta5"></div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <p class="titleEficiencia">Eficiencia</p>
+                    <p class="textEficiencia">Entendemos lo que nuestros clientes quieren y cuando lo quieren. Brindamos opciones que los beneficien en tiempo y costo.</p>
+                </div>
+
+                <div>
+                    <p class="titleDiseño">Diseño</p>
+                    <p class="textDiseño">Se el diseñador de tu propia vivienda o contrata un servicio de diseño personalizado. En cualquiera de las opciones te estaremos acompañando.</p>
+                </div>
+
+                <div>
+                    <p class="titleTecnologia">Tecnología</p>
+                    <p class="textTecnologia">Incorporación de las nuevas tecnologías para generar un espacio moderno, con el mejor servicio posible a costos accesibles.</p>
+                </div>
+                <div class="linePropuesta6"></div>
+                <div class="linePropuesta7"></div>
+                <div class="linePropuesta8"></div>
             </div>
         </div>
     </main>
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
     <!-------- Scripts -------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="assets/js/index.js" />
-    <script src="assets/js/common.js" />
+    <script src="assets/js/index.js"/>
+    <script src="assets/js/common.js"/>
+
 </body>
